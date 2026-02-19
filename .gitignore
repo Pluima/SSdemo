@@ -1,0 +1,5 @@
+checkpoints/
+**/checkpoints/
+dataset/data_clean
+references/
+saved_audio/

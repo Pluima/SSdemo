@@ -1,0 +1,54 @@
+max_length: 2
+accu_grad: 0
+effec_batch_size: 8
+amp: 1
+amp_dtype: bf16
+network_audio:
+  backbone: online_spatialnet
+  stft_frame: 1024
+  stft_hop: 512
+  n_fft: 1024
+  input_nc: 2
+  output_nc: 4
+  cond_dim: 128
+  activation: "Tanh"
+  vec_dim_per_source: 3
+  num_freqs: 513
+  num_layers: 8
+  dim_squeeze: 8
+  encoder_kernel_size: 5
+  dim_hidden: 192
+  dim_ffn: 384
+  num_heads: 2
+  dropout: [0, 0, 0]
+  kernel_size: [5, 3]
+  conv_groups: [8, 8]
+  norms: ["LN", "LN", "GN", "LN", "LN", "LN"]
+  padding: "zeros"
+  full_share: 0
+  attention: "mamba(16,4)"
+  decay: 5
+  chunkwise_recurrent: true
+  rope: false
+
+vector_cue: 0
+sstask: 1
+input_mono: 0
+stereo_loss: 0
+
+# optimizer
+loss_type: pit_sisnr      # "snr", "sisdr", "hybrid"
+init_learning_rate: 0.0001
+max_epoch: 400
+
+#dataset
+dataset:
+  path: /home/qysun/Neuro-SS/baseline/multi-channel/sound-bubble/dataset/
+  name: mix_sources_updated.csv
+  type: online  # 'online' to load from CSV, 'pickle' to load from pkl files
+
+dataloader:
+  batch_size: 4
+  num_workers: 8
+
+checkpoint_dir: ./checkpoints/

@@ -1,0 +1,125 @@
+2026-02-11 01:23:07:INFO:Finetune settings | val_interval=1, early_stop_patience=4, early_stop_min_delta=0.0, init_lr=0.0001, train_last_layer_only=True, aishell_augment=True
+2026-02-11 01:23:58:INFO:Finetune settings | val_interval=1, early_stop_patience=4, early_stop_min_delta=0.0, init_lr=0.0001, train_last_layer_only=True, aishell_augment=True
+2026-02-11 01:25:45:INFO:Finetune settings | val_interval=1, early_stop_patience=4, early_stop_min_delta=0.0, init_lr=0.0001, train_last_layer_only=True, aishell_augment=True
+2026-02-11 01:27:19:INFO:Epoch 1/400 | train_loss=5.171141 | train_time=94.08s | lr=1.000000e-04
+2026-02-11 01:27:34:INFO:Epoch 1/400 | val_loss=7.033860 | val_time=10.66s | epoch_time=109.48s | total_time=109.48s | gap(val-train)=1.862719
+2026-02-11 01:27:39:INFO:Best model updated at epoch 1, best_val=7.033860
+2026-02-11 01:29:12:INFO:Epoch 2/400 | train_loss=4.690277 | train_time=92.89s | lr=1.000000e-04
+2026-02-11 01:29:26:INFO:Epoch 2/400 | val_loss=7.286493 | val_time=10.34s | epoch_time=107.43s | total_time=221.11s | gap(val-train)=2.596216
+2026-02-11 01:29:26:INFO:No validation improvement: 1/4 (best=7.033860, current=7.286493)
+2026-02-11 01:30:59:INFO:Epoch 3/400 | train_loss=4.812447 | train_time=93.28s | lr=1.000000e-04
+2026-02-11 01:31:16:INFO:Epoch 3/400 | val_loss=7.801104 | val_time=10.35s | epoch_time=110.39s | total_time=331.50s | gap(val-train)=2.988657
+2026-02-11 01:31:16:INFO:No validation improvement: 2/4 (best=7.033860, current=7.801104)
+2026-02-11 01:32:49:INFO:Epoch 4/400 | train_loss=4.624087 | train_time=92.97s | lr=1.000000e-04
+2026-02-11 01:33:06:INFO:Epoch 4/400 | val_loss=7.461439 | val_time=10.38s | epoch_time=109.77s | total_time=441.28s | gap(val-train)=2.837352
+2026-02-11 01:33:06:INFO:No validation improvement: 3/4 (best=7.033860, current=7.461439)
+2026-02-11 01:34:39:INFO:Epoch 5/400 | train_loss=4.396875 | train_time=93.19s | lr=5.000000e-05
+2026-02-11 01:34:55:INFO:Epoch 5/400 | val_loss=7.927650 | val_time=10.35s | epoch_time=109.04s | total_time=550.31s | gap(val-train)=3.530775
+2026-02-11 01:34:55:INFO:No validation improvement: 4/4 (best=7.033860, current=7.927650)
+2026-02-11 01:34:55:INFO:Early stopping triggered at epoch 5.
+2026-02-11 09:28:57:INFO:Finetune settings | val_interval=1, early_stop_patience=4, early_stop_min_delta=0.0, init_lr=0.001, train_last_layer_only=True, aishell_augment=True
+2026-02-11 09:30:33:INFO:Epoch 1/40 | train_loss=5.514856 | train_time=95.47s | lr=1.000000e-03
+2026-02-11 09:30:45:INFO:Epoch 1/400 | val_loss=7.614224 | val_time=10.59s | epoch_time=108.26s | total_time=108.26s | gap(val-train)=2.099367
+2026-02-11 09:30:48:INFO:Best model updated at epoch 1, best_val=7.614224
+2026-02-11 09:32:22:INFO:Epoch 2/40 | train_loss=4.631697 | train_time=93.79s | lr=1.000000e-03
+2026-02-11 09:32:35:INFO:Epoch 2/400 | val_loss=7.478390 | val_time=10.42s | epoch_time=106.92s | total_time=217.41s | gap(val-train)=2.846694
+2026-02-11 09:32:40:INFO:Best model updated at epoch 2, best_val=7.478390
+2026-02-11 09:34:13:INFO:Epoch 3/40 | train_loss=4.462366 | train_time=93.27s | lr=1.000000e-03
+2026-02-11 09:34:29:INFO:Epoch 3/400 | val_loss=7.390917 | val_time=10.34s | epoch_time=109.04s | total_time=331.87s | gap(val-train)=2.928550
+2026-02-11 09:34:31:INFO:Best model updated at epoch 3, best_val=7.390917
+2026-02-11 09:36:04:INFO:Epoch 4/40 | train_loss=4.331693 | train_time=93.07s | lr=1.000000e-03
+2026-02-11 09:36:20:INFO:Epoch 4/400 | val_loss=8.518533 | val_time=10.32s | epoch_time=108.18s | total_time=442.27s | gap(val-train)=4.186841
+2026-02-11 09:36:20:INFO:No validation improvement: 1/4 (best=7.390917, current=8.518533)
+2026-02-11 09:37:52:INFO:Epoch 5/40 | train_loss=4.290112 | train_time=92.65s | lr=1.000000e-03
+2026-02-11 09:38:08:INFO:Epoch 5/400 | val_loss=7.624656 | val_time=10.32s | epoch_time=108.58s | total_time=550.86s | gap(val-train)=3.334544
+2026-02-11 09:38:08:INFO:No validation improvement: 2/4 (best=7.390917, current=7.624656)
+2026-02-11 09:39:41:INFO:Epoch 6/40 | train_loss=3.845823 | train_time=93.21s | lr=1.000000e-03
+2026-02-11 09:39:57:INFO:Epoch 6/400 | val_loss=7.604762 | val_time=10.34s | epoch_time=108.65s | total_time=659.51s | gap(val-train)=3.758939
+2026-02-11 09:39:57:INFO:No validation improvement: 3/4 (best=7.390917, current=7.604762)
+2026-02-11 09:41:30:INFO:Epoch 7/40 | train_loss=3.633212 | train_time=93.61s | lr=5.000000e-04
+2026-02-11 09:41:43:INFO:Epoch 7/400 | val_loss=7.209487 | val_time=10.33s | epoch_time=106.19s | total_time=765.70s | gap(val-train)=3.576276
+2026-02-11 09:41:45:INFO:Best model updated at epoch 7, best_val=7.209487
+2026-02-11 09:43:18:INFO:Epoch 8/40 | train_loss=3.433213 | train_time=93.01s | lr=5.000000e-04
+2026-02-11 09:43:32:INFO:Epoch 8/400 | val_loss=6.977386 | val_time=10.33s | epoch_time=107.32s | total_time=875.25s | gap(val-train)=3.544173
+2026-02-11 09:43:37:INFO:Best model updated at epoch 8, best_val=6.977386
+2026-02-11 09:45:10:INFO:Epoch 9/40 | train_loss=3.627618 | train_time=93.22s | lr=5.000000e-04
+2026-02-11 09:45:24:INFO:Epoch 9/400 | val_loss=7.949381 | val_time=10.33s | epoch_time=107.18s | total_time=986.75s | gap(val-train)=4.321763
+2026-02-11 09:45:24:INFO:No validation improvement: 1/4 (best=6.977386, current=7.949381)
+2026-02-11 09:46:57:INFO:Epoch 10/40 | train_loss=3.596863 | train_time=93.00s | lr=5.000000e-04
+2026-02-11 09:47:10:INFO:Epoch 10/400 | val_loss=7.325882 | val_time=10.33s | epoch_time=106.50s | total_time=1093.26s | gap(val-train)=3.729020
+2026-02-11 09:47:10:INFO:No validation improvement: 2/4 (best=6.977386, current=7.325882)
+2026-02-11 09:48:44:INFO:Epoch 11/40 | train_loss=3.452936 | train_time=93.23s | lr=5.000000e-04
+2026-02-11 09:48:59:INFO:Epoch 11/400 | val_loss=7.548949 | val_time=10.32s | epoch_time=108.94s | total_time=1202.20s | gap(val-train)=4.096013
+2026-02-11 09:48:59:INFO:No validation improvement: 3/4 (best=6.977386, current=7.548949)
+2026-02-11 09:50:32:INFO:Epoch 12/40 | train_loss=3.311753 | train_time=93.04s | lr=2.500000e-04
+2026-02-11 09:50:48:INFO:Epoch 12/400 | val_loss=7.232296 | val_time=10.31s | epoch_time=108.41s | total_time=1310.61s | gap(val-train)=3.920543
+2026-02-11 09:50:48:INFO:No validation improvement: 4/4 (best=6.977386, current=7.232296)
+2026-02-11 09:50:48:INFO:Early stopping triggered at epoch 12.
+2026-02-11 09:56:18:INFO:Finetune settings | val_interval=1, early_stop_patience=4, early_stop_min_delta=0.0, init_lr=0.001, train_last_layer_only=False, aishell_augment=True
+2026-02-11 09:58:50:INFO:Epoch 1/40 | train_loss=-3.262739 | train_time=152.39s | lr=1.000000e-03
+2026-02-11 09:59:06:INFO:Epoch 1/400 | val_loss=2.357186 | val_time=10.32s | epoch_time=168.29s | total_time=168.29s | gap(val-train)=5.619924
+2026-02-11 09:59:14:INFO:Best model updated at epoch 1, best_val=2.357186
+2026-02-11 10:01:45:INFO:Epoch 2/40 | train_loss=-5.911623 | train_time=151.17s | lr=1.000000e-03
+2026-02-11 10:02:03:INFO:Epoch 2/400 | val_loss=2.488373 | val_time=10.23s | epoch_time=169.17s | total_time=345.05s | gap(val-train)=8.399996
+2026-02-11 10:02:03:INFO:No validation improvement: 1/4 (best=2.357186, current=2.488373)
+2026-02-11 10:04:33:INFO:Epoch 3/40 | train_loss=-6.362572 | train_time=150.56s | lr=1.000000e-03
+2026-02-11 10:04:49:INFO:Epoch 3/400 | val_loss=2.601025 | val_time=10.07s | epoch_time=165.94s | total_time=510.99s | gap(val-train)=8.963597
+2026-02-11 10:04:49:INFO:No validation improvement: 2/4 (best=2.357186, current=2.601025)
+2026-02-11 10:07:20:INFO:Epoch 4/40 | train_loss=-6.770405 | train_time=150.76s | lr=1.000000e-03
+2026-02-11 10:07:33:INFO:Epoch 4/400 | val_loss=2.541292 | val_time=10.07s | epoch_time=164.44s | total_time=675.43s | gap(val-train)=9.311696
+2026-02-11 10:07:33:INFO:No validation improvement: 3/4 (best=2.357186, current=2.541292)
+2026-02-11 10:10:04:INFO:Epoch 5/40 | train_loss=-7.068951 | train_time=150.78s | lr=5.000000e-04
+2026-02-11 10:10:21:INFO:Epoch 5/400 | val_loss=2.699402 | val_time=10.03s | epoch_time=168.18s | total_time=843.62s | gap(val-train)=9.768353
+2026-02-11 10:10:21:INFO:No validation improvement: 4/4 (best=2.357186, current=2.699402)
+2026-02-11 10:10:21:INFO:Early stopping triggered at epoch 5.
+2026-02-11 11:44:57:INFO:Finetune settings | val_interval=1, early_stop_patience=4, early_stop_min_delta=0.0, init_lr=0.001, train_last_n_layers=4, aishell_augment=True
+2026-02-11 11:46:41:INFO:Epoch 1/40 | train_loss=0.941494 | train_time=103.27s | lr=1.000000e-03
+2026-02-11 11:46:59:INFO:Epoch 1/400 | val_loss=6.081570 | val_time=10.66s | epoch_time=121.67s | total_time=121.67s | gap(val-train)=5.140076
+2026-02-11 11:47:03:INFO:Best model updated at epoch 1, best_val=6.081570
+2026-02-11 11:48:45:INFO:Epoch 2/40 | train_loss=-1.972927 | train_time=102.23s | lr=1.000000e-03
+2026-02-11 11:49:01:INFO:Epoch 2/400 | val_loss=5.965926 | val_time=10.36s | epoch_time=117.90s | total_time=243.89s | gap(val-train)=7.938853
+2026-02-11 11:49:06:INFO:Best model updated at epoch 2, best_val=5.965926
+2026-02-11 11:50:48:INFO:Epoch 3/40 | train_loss=-2.680572 | train_time=102.00s | lr=1.000000e-03
+2026-02-11 11:51:05:INFO:Epoch 3/400 | val_loss=6.000487 | val_time=10.38s | epoch_time=118.79s | total_time=367.76s | gap(val-train)=8.681059
+2026-02-11 11:51:05:INFO:No validation improvement: 1/4 (best=5.965926, current=6.000487)
+2026-02-11 11:52:47:INFO:Epoch 4/40 | train_loss=-3.128977 | train_time=102.03s | lr=1.000000e-03
+2026-02-11 11:53:00:INFO:Epoch 4/400 | val_loss=6.069223 | val_time=10.33s | epoch_time=114.61s | total_time=482.38s | gap(val-train)=9.198200
+2026-02-11 11:53:00:INFO:No validation improvement: 2/4 (best=5.965926, current=6.069223)
+2026-02-11 11:55:04:INFO:Finetune settings | val_interval=1, early_stop_patience=8, early_stop_min_delta=0.0, init_lr=0.001, train_last_n_layers=4, aishell_augment=True
+2026-02-11 11:56:02:INFO:Epoch 1/40 | train_loss=0.524556 | train_time=57.54s | lr=1.000000e-03
+2026-02-11 11:56:12:INFO:Epoch 1/400 | val_loss=5.410476 | val_time=5.47s | epoch_time=67.82s | total_time=67.82s | gap(val-train)=4.885920
+2026-02-11 11:56:16:INFO:Best model updated at epoch 1, best_val=5.410476
+2026-02-11 11:57:12:INFO:Epoch 2/40 | train_loss=-3.075454 | train_time=56.09s | lr=1.000000e-03
+2026-02-11 11:57:20:INFO:Epoch 2/400 | val_loss=5.300564 | val_time=5.17s | epoch_time=64.63s | total_time=135.92s | gap(val-train)=8.376018
+2026-02-11 11:57:24:INFO:Best model updated at epoch 2, best_val=5.300564
+2026-02-11 11:58:21:INFO:Epoch 3/40 | train_loss=-3.895885 | train_time=56.22s | lr=1.000000e-03
+2026-02-11 11:58:29:INFO:Epoch 3/400 | val_loss=5.211929 | val_time=5.13s | epoch_time=65.10s | total_time=204.97s | gap(val-train)=9.107814
+2026-02-11 11:58:32:INFO:Best model updated at epoch 3, best_val=5.211929
+2026-02-11 11:59:28:INFO:Epoch 4/40 | train_loss=-4.418881 | train_time=56.09s | lr=1.000000e-03
+2026-02-11 11:59:36:INFO:Epoch 4/400 | val_loss=5.532333 | val_time=5.17s | epoch_time=63.74s | total_time=271.17s | gap(val-train)=9.951214
+2026-02-11 11:59:36:INFO:No validation improvement: 1/8 (best=5.211929, current=5.532333)
+2026-02-11 12:00:32:INFO:Epoch 5/40 | train_loss=-4.870461 | train_time=56.19s | lr=1.000000e-03
+2026-02-11 12:00:40:INFO:Epoch 5/400 | val_loss=5.677137 | val_time=5.12s | epoch_time=64.69s | total_time=335.86s | gap(val-train)=10.547597
+2026-02-11 12:00:40:INFO:No validation improvement: 2/8 (best=5.211929, current=5.677137)
+2026-02-11 12:01:38:INFO:Epoch 6/40 | train_loss=-5.157802 | train_time=57.99s | lr=1.000000e-03
+2026-02-11 12:01:46:INFO:Epoch 6/400 | val_loss=5.904623 | val_time=5.13s | epoch_time=65.53s | total_time=401.40s | gap(val-train)=11.062426
+2026-02-11 12:01:46:INFO:No validation improvement: 3/8 (best=5.211929, current=5.904623)
+2026-02-11 12:02:43:INFO:Epoch 7/40 | train_loss=-5.407180 | train_time=56.81s | lr=5.000000e-04
+2026-02-11 12:02:52:INFO:Epoch 7/400 | val_loss=5.749623 | val_time=5.17s | epoch_time=65.81s | total_time=467.22s | gap(val-train)=11.156802
+2026-02-11 12:02:52:INFO:No validation improvement: 4/8 (best=5.211929, current=5.749623)
+2026-02-11 12:03:49:INFO:Epoch 8/40 | train_loss=-5.535001 | train_time=56.97s | lr=5.000000e-04
+2026-02-11 12:04:00:INFO:Epoch 8/400 | val_loss=5.849753 | val_time=5.16s | epoch_time=68.40s | total_time=535.62s | gap(val-train)=11.384754
+2026-02-11 12:04:00:INFO:No validation improvement: 5/8 (best=5.211929, current=5.849753)
+2026-02-11 12:04:57:INFO:Epoch 9/40 | train_loss=-5.598338 | train_time=56.75s | lr=5.000000e-04
+2026-02-11 12:05:04:INFO:Epoch 9/400 | val_loss=5.752617 | val_time=5.16s | epoch_time=64.33s | total_time=599.95s | gap(val-train)=11.350955
+2026-02-11 12:05:04:INFO:No validation improvement: 6/8 (best=5.211929, current=5.752617)
+2026-02-11 12:06:01:INFO:Epoch 10/40 | train_loss=-5.613816 | train_time=56.85s | lr=2.500000e-04
+2026-02-11 12:06:12:INFO:Epoch 10/400 | val_loss=5.735492 | val_time=5.13s | epoch_time=67.49s | total_time=667.43s | gap(val-train)=11.349308
+2026-02-11 12:06:12:INFO:No validation improvement: 7/8 (best=5.211929, current=5.735492)
+2026-02-11 12:07:09:INFO:Epoch 11/40 | train_loss=-5.668688 | train_time=56.64s | lr=2.500000e-04
+2026-02-11 12:07:16:INFO:Epoch 11/400 | val_loss=5.747730 | val_time=5.12s | epoch_time=64.22s | total_time=731.67s | gap(val-train)=11.416417
+2026-02-11 12:07:16:INFO:No validation improvement: 8/8 (best=5.211929, current=5.747730)
+2026-02-11 12:07:16:INFO:Early stopping triggered at epoch 11.
+2026-02-13 10:34:29:INFO:Finetune settings | val_interval=1, early_stop_patience=8, early_stop_min_delta=0.0, init_lr=0.001, train_last_n_layers=8, aishell_augment=True
+2026-02-13 10:36:35:INFO:Finetune settings | val_interval=1, early_stop_patience=8, early_stop_min_delta=0.0, init_lr=0.001, train_last_n_layers=8, aishell_augment=False
+2026-02-13 17:25:58:INFO:Finetune settings | val_interval=1, early_stop_patience=8, early_stop_min_delta=0.0, init_lr=0.001, train_last_n_layers=8, aishell_augment=False

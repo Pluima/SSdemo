@@ -1,0 +1,69 @@
+## Config file for AV MossFormer with ConvTasNet masknet for Speech Separation
+
+# Log
+seed: 777
+
+
+# dataset
+speaker_no: 2
+# mix_lst_path: ./data/LRS2/mixture_data_list_2mix.csv
+# audio_direc: /home/qysun/AV-TSE/dataset/lrs2/
+# reference_direc: /home/qysun/AV-TSE/dataset/lrs2/
+audio_sr: 16000
+max_length: 6
+# ref_sr: 25
+
+
+
+# network settings
+init_from: None       # 'None' or a log name 'log_2024-07-22(18:12:13)'
+causal: 0             # 1 for True, 0 for False
+# network_reference:
+#   cue: lip            # lip or speech or gesture or EEG
+#   backbone: resnet18  # resnet18 or shufflenetV2 or blazenet64
+#   emb_size: 256       # resnet18:256
+network_audio:
+  backbone: convtasnet_loud
+  encoder_kernel_size: 16
+  encoder_out_nchannels: 512
+  encoder_in_nchannels: 1
+
+
+  # ConvTasNet TCN parameters
+  B: 256              # bottleneck channels
+  H: 512              # hidden channels in TCN blocks
+  P: 3                # kernel size in TCN blocks
+  X: 8                # number of convolutional blocks in each TCN block
+  R: 4                # number of TCN blocks
+
+  # Speech separation settings
+  masknet_numspks: 2  # number of speakers to separate
+
+vector_cue: 1
+sstask: 1
+input_mono: 0
+
+
+# optimizer
+loss_type: pit_sisnr      # "snr", "sisdr", "hybrid"
+init_learning_rate: 0.001
+max_epoch: 400 
+clip_grad_norm: 5
+
+
+
+#dataset
+dataset:
+  path: /home/qysun/Neuro-SS/baseline/multi-channel/sound-bubble/dataset/
+  type: online  # 'online' to load from CSV, 'pickle' to load from pkl files
+
+dataloader:
+  batch_size: 4
+  num_workers: 8
+
+
+checkpoint_dir: ./checkpoints/
+
+
+
+
